@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB155D9516365FDB007B9EE8 /* azucar.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D7F16365FDA007B9EE8 /* azucar.png */; };
+		FB155D9616365FDB007B9EE8 /* azucar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8016365FDA007B9EE8 /* azucar@2x.png */; };
+		FB155D9716365FDB007B9EE8 /* edhardy.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8116365FDA007B9EE8 /* edhardy.png */; };
+		FB155D9816365FDB007B9EE8 /* edhardy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8216365FDA007B9EE8 /* edhardy@2x.png */; };
+		FB155D9916365FDB007B9EE8 /* grafitti.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8316365FDA007B9EE8 /* grafitti.png */; };
+		FB155D9A16365FDB007B9EE8 /* grafitti@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8416365FDA007B9EE8 /* grafitti@2x.png */; };
+		FB155D9B16365FDB007B9EE8 /* hippie.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8516365FDA007B9EE8 /* hippie.png */; };
+		FB155D9C16365FDB007B9EE8 /* hippie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8616365FDA007B9EE8 /* hippie@2x.png */; };
+		FB155D9D16365FDB007B9EE8 /* metal.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8716365FDA007B9EE8 /* metal.png */; };
+		FB155D9E16365FDB007B9EE8 /* metal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8816365FDA007B9EE8 /* metal@2x.png */; };
+		FB155D9F16365FDB007B9EE8 /* moctezuma.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8916365FDA007B9EE8 /* moctezuma.png */; };
+		FB155DA016365FDB007B9EE8 /* moctezuma@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8A16365FDA007B9EE8 /* moctezuma@2x.png */; };
+		FB155DA116365FDB007B9EE8 /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8B16365FDA007B9EE8 /* pacman.png */; };
+		FB155DA216365FDB007B9EE8 /* pacman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8C16365FDA007B9EE8 /* pacman@2x.png */; };
+		FB155DA316365FDB007B9EE8 /* papelpicado.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8D16365FDA007B9EE8 /* papelpicado.png */; };
+		FB155DA416365FDB007B9EE8 /* papelpicado@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8E16365FDA007B9EE8 /* papelpicado@2x.png */; };
+		FB155DA516365FDB007B9EE8 /* posada.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D8F16365FDA007B9EE8 /* posada.png */; };
+		FB155DA616365FDB007B9EE8 /* posada@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D9016365FDA007B9EE8 /* posada@2x.png */; };
+		FB155DA716365FDB007B9EE8 /* santo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D9116365FDA007B9EE8 /* santo.png */; };
+		FB155DA816365FDB007B9EE8 /* santo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D9216365FDA007B9EE8 /* santo@2x.png */; };
+		FB155DA916365FDB007B9EE8 /* tradicional.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D9316365FDA007B9EE8 /* tradicional.png */; };
+		FB155DAA16365FDB007B9EE8 /* tradicional@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB155D9416365FDB007B9EE8 /* tradicional@2x.png */; };
+		FB2195641630ABD000FB9B2A /* calaveritaapp.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2195631630ABD000FB9B2A /* calaveritaapp.png */; };
+		FB2195661630AC4D00FB9B2A /* calaveritappretina.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2195651630AC4C00FB9B2A /* calaveritappretina.png */; };
+		FB21956E1630B58400FB9B2A /* ChooseImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB21956C1630B58400FB9B2A /* ChooseImageViewController.m */; };
+		FB21956F1630B58400FB9B2A /* ChooseImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB21956D1630B58400FB9B2A /* ChooseImageViewController.xib */; };
+		FB2195891630C97000FB9B2A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2195881630C97000FB9B2A /* Default.png */; };
+		FB21958B1630C97400FB9B2A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB21958A1630C97400FB9B2A /* Default@2x.png */; };
+		FB21958D1630C9A800FB9B2A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB21958C1630C9A800FB9B2A /* Default-568h@2x.png */; };
+		FB2195971631D22E00FB9B2A /* XPCCalveritadulceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2195951631D22D00FB9B2A /* XPCCalveritadulceViewController.m */; };
+		FB2195981631D22E00FB9B2A /* XPCCalveritadulceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2195961631D22E00FB9B2A /* XPCCalveritadulceViewController.xib */; };
+		FBAEF0AA162E407A0075CAFE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAEF0A9162E407A0075CAFE /* QuartzCore.framework */; };
+		FBF833251635A04300408EFF /* Calaverita.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF833241635A04300408EFF /* Calaverita.m */; };
+		FBF8333E163631DE00408EFF /* 8bit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF8333C163631DE00408EFF /* 8bit@2x.png */; };
+		FBF83340163641A700408EFF /* 8bit.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF8333F163641A700408EFF /* 8bit.png */; };
+		FBF9D394162745BD00CAE1E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF9D393162745BD00CAE1E9 /* UIKit.framework */; };
+		FBF9D396162745BD00CAE1E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF9D395162745BD00CAE1E9 /* Foundation.framework */; };
+		FBF9D398162745BD00CAE1E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF9D397162745BD00CAE1E9 /* CoreGraphics.framework */; };
+		FBF9D39E162745BD00CAE1E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBF9D39C162745BD00CAE1E9 /* InfoPlist.strings */; };
+		FBF9D3A0162745BD00CAE1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9D39F162745BD00CAE1E9 /* main.m */; };
+		FBF9D3A4162745BD00CAE1E9 /* XPCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9D3A3162745BD00CAE1E9 /* XPCAppDelegate.m */; };
+		FBF9D3AD162745BD00CAE1E9 /* XPCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9D3AC162745BD00CAE1E9 /* XPCViewController.m */; };
+		FBF9D3B0162745BD00CAE1E9 /* XPCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF9D3AE162745BD00CAE1E9 /* XPCViewController.xib */; };
+		FBF9D3B9162776AB00CAE1E9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF9D3B8162776AB00CAE1E9 /* Social.framework */; };
+		FBF9D3BB162784FC00CAE1E9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF9D3BA162784FC00CAE1E9 /* MobileCoreServices.framework */; };
+		FBF9D3CA1627C53300CAE1E9 /* CalaveritaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9D3C81627C53300CAE1E9 /* CalaveritaViewController.m */; };
+		FBF9D3CB1627C53300CAE1E9 /* CalaveritaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF9D3C91627C53300CAE1E9 /* CalaveritaViewController.xib */; };
+		FBFBF29316372A400008FDFE /* XPCedHardyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF29116372A3F0008FDFE /* XPCedHardyViewController.m */; };
+		FBFBF29416372A400008FDFE /* XPCedHardyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF29216372A3F0008FDFE /* XPCedHardyViewController.xib */; };
+		FBFBF29916372A620008FDFE /* XPCgrafittiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF29716372A610008FDFE /* XPCgrafittiViewController.m */; };
+		FBFBF29A16372A620008FDFE /* XPCgrafittiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF29816372A610008FDFE /* XPCgrafittiViewController.xib */; };
+		FBFBF29E16372A7D0008FDFE /* XPChippieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF29C16372A7D0008FDFE /* XPChippieViewController.m */; };
+		FBFBF29F16372A7D0008FDFE /* XPChippieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF29D16372A7D0008FDFE /* XPChippieViewController.xib */; };
+		FBFBF2A316372A9F0008FDFE /* XPCmoctezumaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF2A116372A9F0008FDFE /* XPCmoctezumaViewController.m */; };
+		FBFBF2A416372A9F0008FDFE /* XPCmoctezumaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF2A216372A9F0008FDFE /* XPCmoctezumaViewController.xib */; };
+		FBFBF2A816372AC60008FDFE /* XPCPacmanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF2A616372AC50008FDFE /* XPCPacmanViewController.m */; };
+		FBFBF2A916372AC60008FDFE /* XPCPacmanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF2A716372AC50008FDFE /* XPCPacmanViewController.xib */; };
+		FBFBF2AD16372ADD0008FDFE /* XPCPosadaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF2AB16372ADD0008FDFE /* XPCPosadaViewController.m */; };
+		FBFBF2AE16372ADD0008FDFE /* XPCPosadaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF2AC16372ADD0008FDFE /* XPCPosadaViewController.xib */; };
+		FBFBF2B216372B270008FDFE /* XPCPapelIndicadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF2B016372B270008FDFE /* XPCPapelIndicadoViewController.m */; };
+		FBFBF2B316372B270008FDFE /* XPCPapelIndicadoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF2B116372B270008FDFE /* XPCPapelIndicadoViewController.xib */; };
+		FBFBF2B716372B450008FDFE /* XPCSantoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF2B516372B450008FDFE /* XPCSantoViewController.m */; };
+		FBFBF2B816372B450008FDFE /* XPCSantoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF2B616372B450008FDFE /* XPCSantoViewController.xib */; };
+		FBFBF2BC16372B630008FDFE /* XPCTradicionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF2BA16372B620008FDFE /* XPCTradicionalViewController.m */; };
+		FBFBF2BD16372B630008FDFE /* XPCTradicionalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF2BB16372B630008FDFE /* XPCTradicionalViewController.xib */; };
+		FBFBF2DD16382CBC0008FDFE /* XPCChooseImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFBF2DB16382CB90008FDFE /* XPCChooseImageViewController.m */; };
+		FBFBF2DE16382CBC0008FDFE /* XPCChooseImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFBF2DC16382CBB0008FDFE /* XPCChooseImageViewController.xib */; };
+		FBFF562F1633947800F59F2F /* XPCCalaveritanegroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFF562D1633947800F59F2F /* XPCCalaveritanegroViewController.m */; };
+		FBFF56301633947800F59F2F /* XPCCalaveritanegroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFF562E1633947800F59F2F /* XPCCalaveritanegroViewController.xib */; };
+		FBFF563516339C4B00F59F2F /* XPCCalaveritaGamerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFF563316339C4A00F59F2F /* XPCCalaveritaGamerViewController.m */; };
+		FBFF563616339C4B00F59F2F /* XPCCalaveritaGamerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBFF563416339C4A00F59F2F /* XPCCalaveritaGamerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB155D7F16365FDA007B9EE8 /* azucar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = azucar.png; sourceTree = "<group>"; };
+		FB155D8016365FDA007B9EE8 /* azucar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "azucar@2x.png"; sourceTree = "<group>"; };
+		FB155D8116365FDA007B9EE8 /* edhardy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edhardy.png; sourceTree = "<group>"; };
+		FB155D8216365FDA007B9EE8 /* edhardy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edhardy@2x.png"; sourceTree = "<group>"; };
+		FB155D8316365FDA007B9EE8 /* grafitti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grafitti.png; sourceTree = "<group>"; };
+		FB155D8416365FDA007B9EE8 /* grafitti@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grafitti@2x.png"; sourceTree = "<group>"; };
+		FB155D8516365FDA007B9EE8 /* hippie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hippie.png; sourceTree = "<group>"; };
+		FB155D8616365FDA007B9EE8 /* hippie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hippie@2x.png"; sourceTree = "<group>"; };
+		FB155D8716365FDA007B9EE8 /* metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metal.png; sourceTree = "<group>"; };
+		FB155D8816365FDA007B9EE8 /* metal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "metal@2x.png"; sourceTree = "<group>"; };
+		FB155D8916365FDA007B9EE8 /* moctezuma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moctezuma.png; sourceTree = "<group>"; };
+		FB155D8A16365FDA007B9EE8 /* moctezuma@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moctezuma@2x.png"; sourceTree = "<group>"; };
+		FB155D8B16365FDA007B9EE8 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
+		FB155D8C16365FDA007B9EE8 /* pacman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pacman@2x.png"; sourceTree = "<group>"; };
+		FB155D8D16365FDA007B9EE8 /* papelpicado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = papelpicado.png; sourceTree = "<group>"; };
+		FB155D8E16365FDA007B9EE8 /* papelpicado@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "papelpicado@2x.png"; sourceTree = "<group>"; };
+		FB155D8F16365FDA007B9EE8 /* posada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posada.png; sourceTree = "<group>"; };
+		FB155D9016365FDA007B9EE8 /* posada@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "posada@2x.png"; sourceTree = "<group>"; };
+		FB155D9116365FDA007B9EE8 /* santo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santo.png; sourceTree = "<group>"; };
+		FB155D9216365FDA007B9EE8 /* santo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "santo@2x.png"; sourceTree = "<group>"; };
+		FB155D9316365FDA007B9EE8 /* tradicional.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tradicional.png; sourceTree = "<group>"; };
+		FB155D9416365FDB007B9EE8 /* tradicional@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tradicional@2x.png"; sourceTree = "<group>"; };
+		FB2195631630ABD000FB9B2A /* calaveritaapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calaveritaapp.png; sourceTree = "<group>"; };
+		FB2195651630AC4C00FB9B2A /* calaveritappretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calaveritappretina.png; sourceTree = "<group>"; };
+		FB21956B1630B58400FB9B2A /* ChooseImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseImageViewController.h; sourceTree = "<group>"; };
+		FB21956C1630B58400FB9B2A /* ChooseImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseImageViewController.m; sourceTree = "<group>"; };
+		FB21956D1630B58400FB9B2A /* ChooseImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseImageViewController.xib; sourceTree = "<group>"; };
+		FB2195881630C97000FB9B2A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FB21958A1630C97400FB9B2A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FB21958C1630C9A800FB9B2A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FB2195941631D22D00FB9B2A /* XPCCalveritadulceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCCalveritadulceViewController.h; sourceTree = "<group>"; };
+		FB2195951631D22D00FB9B2A /* XPCCalveritadulceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCCalveritadulceViewController.m; sourceTree = "<group>"; };
+		FB2195961631D22E00FB9B2A /* XPCCalveritadulceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCCalveritadulceViewController.xib; sourceTree = "<group>"; };
+		FBAEF0A9162E407A0075CAFE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FBF833231635A04300408EFF /* Calaverita.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calaverita.h; sourceTree = "<group>"; };
+		FBF833241635A04300408EFF /* Calaverita.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calaverita.m; sourceTree = "<group>"; };
+		FBF8333C163631DE00408EFF /* 8bit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8bit@2x.png"; sourceTree = "<group>"; };
+		FBF8333F163641A700408EFF /* 8bit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8bit.png; sourceTree = "<group>"; };
+		FBF9D38F162745BD00CAE1E9 /* Calaveritas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calaveritas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF9D393162745BD00CAE1E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBF9D395162745BD00CAE1E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBF9D397162745BD00CAE1E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBF9D39B162745BD00CAE1E9 /* Calaveritas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calaveritas-Info.plist"; sourceTree = "<group>"; };
+		FBF9D39D162745BD00CAE1E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBF9D39F162745BD00CAE1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBF9D3A1162745BD00CAE1E9 /* Calaveritas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calaveritas-Prefix.pch"; sourceTree = "<group>"; };
+		FBF9D3A2162745BD00CAE1E9 /* XPCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPCAppDelegate.h; sourceTree = "<group>"; };
+		FBF9D3A3162745BD00CAE1E9 /* XPCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPCAppDelegate.m; sourceTree = "<group>"; };
+		FBF9D3AB162745BD00CAE1E9 /* XPCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XPCViewController.h; path = Calaveritas/XPCViewController.h; sourceTree = "<group>"; };
+		FBF9D3AC162745BD00CAE1E9 /* XPCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XPCViewController.m; path = Calaveritas/XPCViewController.m; sourceTree = "<group>"; };
+		FBF9D3AF162745BD00CAE1E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XPCViewController.xib; sourceTree = "<group>"; };
+		FBF9D3B8162776AB00CAE1E9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FBF9D3BA162784FC00CAE1E9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FBF9D3C71627C53300CAE1E9 /* CalaveritaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalaveritaViewController.h; sourceTree = "<group>"; };
+		FBF9D3C81627C53300CAE1E9 /* CalaveritaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalaveritaViewController.m; sourceTree = "<group>"; };
+		FBF9D3C91627C53300CAE1E9 /* CalaveritaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalaveritaViewController.xib; sourceTree = "<group>"; };
+		FBFBF29016372A3F0008FDFE /* XPCedHardyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCedHardyViewController.h; sourceTree = "<group>"; };
+		FBFBF29116372A3F0008FDFE /* XPCedHardyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCedHardyViewController.m; sourceTree = "<group>"; };
+		FBFBF29216372A3F0008FDFE /* XPCedHardyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCedHardyViewController.xib; sourceTree = "<group>"; };
+		FBFBF29616372A610008FDFE /* XPCgrafittiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCgrafittiViewController.h; sourceTree = "<group>"; };
+		FBFBF29716372A610008FDFE /* XPCgrafittiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCgrafittiViewController.m; sourceTree = "<group>"; };
+		FBFBF29816372A610008FDFE /* XPCgrafittiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCgrafittiViewController.xib; sourceTree = "<group>"; };
+		FBFBF29B16372A7C0008FDFE /* XPChippieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPChippieViewController.h; sourceTree = "<group>"; };
+		FBFBF29C16372A7D0008FDFE /* XPChippieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPChippieViewController.m; sourceTree = "<group>"; };
+		FBFBF29D16372A7D0008FDFE /* XPChippieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPChippieViewController.xib; sourceTree = "<group>"; };
+		FBFBF2A016372A9F0008FDFE /* XPCmoctezumaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCmoctezumaViewController.h; sourceTree = "<group>"; };
+		FBFBF2A116372A9F0008FDFE /* XPCmoctezumaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCmoctezumaViewController.m; sourceTree = "<group>"; };
+		FBFBF2A216372A9F0008FDFE /* XPCmoctezumaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCmoctezumaViewController.xib; sourceTree = "<group>"; };
+		FBFBF2A516372AC50008FDFE /* XPCPacmanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCPacmanViewController.h; sourceTree = "<group>"; };
+		FBFBF2A616372AC50008FDFE /* XPCPacmanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCPacmanViewController.m; sourceTree = "<group>"; };
+		FBFBF2A716372AC50008FDFE /* XPCPacmanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCPacmanViewController.xib; sourceTree = "<group>"; };
+		FBFBF2AA16372ADC0008FDFE /* XPCPosadaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCPosadaViewController.h; sourceTree = "<group>"; };
+		FBFBF2AB16372ADD0008FDFE /* XPCPosadaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCPosadaViewController.m; sourceTree = "<group>"; };
+		FBFBF2AC16372ADD0008FDFE /* XPCPosadaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCPosadaViewController.xib; sourceTree = "<group>"; };
+		FBFBF2AF16372B270008FDFE /* XPCPapelIndicadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCPapelIndicadoViewController.h; sourceTree = "<group>"; };
+		FBFBF2B016372B270008FDFE /* XPCPapelIndicadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCPapelIndicadoViewController.m; sourceTree = "<group>"; };
+		FBFBF2B116372B270008FDFE /* XPCPapelIndicadoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCPapelIndicadoViewController.xib; sourceTree = "<group>"; };
+		FBFBF2B416372B440008FDFE /* XPCSantoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCSantoViewController.h; sourceTree = "<group>"; };
+		FBFBF2B516372B450008FDFE /* XPCSantoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCSantoViewController.m; sourceTree = "<group>"; };
+		FBFBF2B616372B450008FDFE /* XPCSantoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCSantoViewController.xib; sourceTree = "<group>"; };
+		FBFBF2B916372B620008FDFE /* XPCTradicionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCTradicionalViewController.h; sourceTree = "<group>"; };
+		FBFBF2BA16372B620008FDFE /* XPCTradicionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCTradicionalViewController.m; sourceTree = "<group>"; };
+		FBFBF2BB16372B630008FDFE /* XPCTradicionalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCTradicionalViewController.xib; sourceTree = "<group>"; };
+		FBFBF2DA16382CB80008FDFE /* XPCChooseImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCChooseImageViewController.h; sourceTree = "<group>"; };
+		FBFBF2DB16382CB90008FDFE /* XPCChooseImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCChooseImageViewController.m; sourceTree = "<group>"; };
+		FBFBF2DC16382CBB0008FDFE /* XPCChooseImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCChooseImageViewController.xib; sourceTree = "<group>"; };
+		FBFF562C1633947800F59F2F /* XPCCalaveritanegroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCCalaveritanegroViewController.h; sourceTree = "<group>"; };
+		FBFF562D1633947800F59F2F /* XPCCalaveritanegroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCCalaveritanegroViewController.m; sourceTree = "<group>"; };
+		FBFF562E1633947800F59F2F /* XPCCalaveritanegroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCCalaveritanegroViewController.xib; sourceTree = "<group>"; };
+		FBFF563216339C4A00F59F2F /* XPCCalaveritaGamerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCCalaveritaGamerViewController.h; sourceTree = "<group>"; };
+		FBFF563316339C4A00F59F2F /* XPCCalaveritaGamerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCCalaveritaGamerViewController.m; sourceTree = "<group>"; };
+		FBFF563416339C4A00F59F2F /* XPCCalaveritaGamerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XPCCalaveritaGamerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF9D38C162745BD00CAE1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBAEF0AA162E407A0075CAFE /* QuartzCore.framework in Frameworks */,
+				FBF9D3BB162784FC00CAE1E9 /* MobileCoreServices.framework in Frameworks */,
+				FBF9D3B9162776AB00CAE1E9 /* Social.framework in Frameworks */,
+				FBF9D394162745BD00CAE1E9 /* UIKit.framework in Frameworks */,
+				FBF9D396162745BD00CAE1E9 /* Foundation.framework in Frameworks */,
+				FBF9D398162745BD00CAE1E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2195671630B3F900FB9B2A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8333C163631DE00408EFF /* 8bit@2x.png */,
+				FBF8333F163641A700408EFF /* 8bit.png */,
+				FB155D8016365FDA007B9EE8 /* azucar@2x.png */,
+				FB155D8116365FDA007B9EE8 /* edhardy.png */,
+				FB155D8216365FDA007B9EE8 /* edhardy@2x.png */,
+				FB155D8316365FDA007B9EE8 /* grafitti.png */,
+				FB155D8416365FDA007B9EE8 /* grafitti@2x.png */,
+				FB155D8516365FDA007B9EE8 /* hippie.png */,
+				FB155D8616365FDA007B9EE8 /* hippie@2x.png */,
+				FB155D8716365FDA007B9EE8 /* metal.png */,
+				FB155D8816365FDA007B9EE8 /* metal@2x.png */,
+				FB155D8916365FDA007B9EE8 /* moctezuma.png */,
+				FB155D8A16365FDA007B9EE8 /* moctezuma@2x.png */,
+				FB155D8B16365FDA007B9EE8 /* pacman.png */,
+				FB155D8C16365FDA007B9EE8 /* pacman@2x.png */,
+				FB155D8D16365FDA007B9EE8 /* papelpicado.png */,
+				FB155D8E16365FDA007B9EE8 /* papelpicado@2x.png */,
+				FB155D8F16365FDA007B9EE8 /* posada.png */,
+				FB155D9016365FDA007B9EE8 /* posada@2x.png */,
+				FB155D7F16365FDA007B9EE8 /* azucar.png */,
+				FB155D9116365FDA007B9EE8 /* santo.png */,
+				FB155D9216365FDA007B9EE8 /* santo@2x.png */,
+				FB155D9316365FDA007B9EE8 /* tradicional.png */,
+				FB155D9416365FDB007B9EE8 /* tradicional@2x.png */,
+				FB21958C1630C9A800FB9B2A /* Default-568h@2x.png */,
+				FB21958A1630C97400FB9B2A /* Default@2x.png */,
+				FB2195881630C97000FB9B2A /* Default.png */,
+				FB2195651630AC4C00FB9B2A /* calaveritappretina.png */,
+				FB2195631630ABD000FB9B2A /* calaveritaapp.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FB2195991631D76B00FB9B2A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB21956B1630B58400FB9B2A /* ChooseImageViewController.h */,
+				FB21956C1630B58400FB9B2A /* ChooseImageViewController.m */,
+				FB21956D1630B58400FB9B2A /* ChooseImageViewController.xib */,
+				FBFF562C1633947800F59F2F /* XPCCalaveritanegroViewController.h */,
+				FBFF562D1633947800F59F2F /* XPCCalaveritanegroViewController.m */,
+				FBFF562E1633947800F59F2F /* XPCCalaveritanegroViewController.xib */,
+				FB2195941631D22D00FB9B2A /* XPCCalveritadulceViewController.h */,
+				FB2195951631D22D00FB9B2A /* XPCCalveritadulceViewController.m */,
+				FB2195961631D22E00FB9B2A /* XPCCalveritadulceViewController.xib */,
+				FBFF563216339C4A00F59F2F /* XPCCalaveritaGamerViewController.h */,
+				FBFF563316339C4A00F59F2F /* XPCCalaveritaGamerViewController.m */,
+				FBFF563416339C4A00F59F2F /* XPCCalaveritaGamerViewController.xib */,
+				FBFBF29016372A3F0008FDFE /* XPCedHardyViewController.h */,
+				FBFBF29116372A3F0008FDFE /* XPCedHardyViewController.m */,
+				FBFBF29216372A3F0008FDFE /* XPCedHardyViewController.xib */,
+				FBFBF29616372A610008FDFE /* XPCgrafittiViewController.h */,
+				FBFBF29716372A610008FDFE /* XPCgrafittiViewController.m */,
+				FBFBF29816372A610008FDFE /* XPCgrafittiViewController.xib */,
+				FBFBF29B16372A7C0008FDFE /* XPChippieViewController.h */,
+				FBFBF29C16372A7D0008FDFE /* XPChippieViewController.m */,
+				FBFBF29D16372A7D0008FDFE /* XPChippieViewController.xib */,
+				FBFBF2A016372A9F0008FDFE /* XPCmoctezumaViewController.h */,
+				FBFBF2A116372A9F0008FDFE /* XPCmoctezumaViewController.m */,
+				FBFBF2A216372A9F0008FDFE /* XPCmoctezumaViewController.xib */,
+				FBFBF2A516372AC50008FDFE /* XPCPacmanViewController.h */,
+				FBFBF2A616372AC50008FDFE /* XPCPacmanViewController.m */,
+				FBFBF2A716372AC50008FDFE /* XPCPacmanViewController.xib */,
+				FBFBF2AA16372ADC0008FDFE /* XPCPosadaViewController.h */,
+				FBFBF2AB16372ADD0008FDFE /* XPCPosadaViewController.m */,
+				FBFBF2AC16372ADD0008FDFE /* XPCPosadaViewController.xib */,
+				FBFBF2AF16372B270008FDFE /* XPCPapelIndicadoViewController.h */,
+				FBFBF2B016372B270008FDFE /* XPCPapelIndicadoViewController.m */,
+				FBFBF2B116372B270008FDFE /* XPCPapelIndicadoViewController.xib */,
+				FBFBF2B416372B440008FDFE /* XPCSantoViewController.h */,
+				FBFBF2B516372B450008FDFE /* XPCSantoViewController.m */,
+				FBFBF2B616372B450008FDFE /* XPCSantoViewController.xib */,
+				FBFBF2B916372B620008FDFE /* XPCTradicionalViewController.h */,
+				FBFBF2BA16372B620008FDFE /* XPCTradicionalViewController.m */,
+				FBFBF2BB16372B630008FDFE /* XPCTradicionalViewController.xib */,
+				FBF9D3C71627C53300CAE1E9 /* CalaveritaViewController.h */,
+				FBF9D3C81627C53300CAE1E9 /* CalaveritaViewController.m */,
+				FBF9D3C91627C53300CAE1E9 /* CalaveritaViewController.xib */,
+				FBF9D3AB162745BD00CAE1E9 /* XPCViewController.h */,
+				FBF9D3AC162745BD00CAE1E9 /* XPCViewController.m */,
+				FBF9D3AE162745BD00CAE1E9 /* XPCViewController.xib */,
+				FBF833231635A04300408EFF /* Calaverita.h */,
+				FBF833241635A04300408EFF /* Calaverita.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FBF9D384162745BC00CAE1E9 = {
+			isa = PBXGroup;
+			children = (
+				FBFBF2DA16382CB80008FDFE /* XPCChooseImageViewController.h */,
+				FBFBF2DB16382CB90008FDFE /* XPCChooseImageViewController.m */,
+				FBFBF2DC16382CBB0008FDFE /* XPCChooseImageViewController.xib */,
+				FB2195991631D76B00FB9B2A /* Controllers */,
+				FB2195671630B3F900FB9B2A /* Resources */,
+				FBAEF0A9162E407A0075CAFE /* QuartzCore.framework */,
+				FBF9D3BA162784FC00CAE1E9 /* MobileCoreServices.framework */,
+				FBF9D3B8162776AB00CAE1E9 /* Social.framework */,
+				FBF9D399162745BD00CAE1E9 /* Calaveritas */,
+				FBF9D392162745BD00CAE1E9 /* Frameworks */,
+				FBF9D390162745BD00CAE1E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF9D390162745BD00CAE1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9D38F162745BD00CAE1E9 /* Calaveritas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF9D392162745BD00CAE1E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9D393162745BD00CAE1E9 /* UIKit.framework */,
+				FBF9D395162745BD00CAE1E9 /* Foundation.framework */,
+				FBF9D397162745BD00CAE1E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBF9D399162745BD00CAE1E9 /* Calaveritas */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9D3A2162745BD00CAE1E9 /* XPCAppDelegate.h */,
+				FBF9D3A3162745BD00CAE1E9 /* XPCAppDelegate.m */,
+				FBF9D39A162745BD00CAE1E9 /* Supporting Files */,
+			);
+			path = Calaveritas;
+			sourceTree = "<group>";
+		};
+		FBF9D39A162745BD00CAE1E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9D39B162745BD00CAE1E9 /* Calaveritas-Info.plist */,
+				FBF9D39C162745BD00CAE1E9 /* InfoPlist.strings */,
+				FBF9D39F162745BD00CAE1E9 /* main.m */,
+				FBF9D3A1162745BD00CAE1E9 /* Calaveritas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF9D38E162745BD00CAE1E9 /* Calaveritas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF9D3B3162745BD00CAE1E9 /* Build configuration list for PBXNativeTarget "Calaveritas" */;
+			buildPhases = (
+				FBF9D38B162745BD00CAE1E9 /* Sources */,
+				FBF9D38C162745BD00CAE1E9 /* Frameworks */,
+				FBF9D38D162745BD00CAE1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calaveritas;
+			productName = Calaveritas;
+			productReference = FBF9D38F162745BD00CAE1E9 /* Calaveritas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF9D386162745BC00CAE1E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XPC;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Xochitl Perez";
+			};
+			buildConfigurationList = FBF9D389162745BC00CAE1E9 /* Build configuration list for PBXProject "Calaveritas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBF9D384162745BC00CAE1E9;
+			productRefGroup = FBF9D390162745BD00CAE1E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF9D38E162745BD00CAE1E9 /* Calaveritas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF9D38D162745BD00CAE1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF9D39E162745BD00CAE1E9 /* InfoPlist.strings in Resources */,
+				FBF9D3B0162745BD00CAE1E9 /* XPCViewController.xib in Resources */,
+				FBF9D3CB1627C53300CAE1E9 /* CalaveritaViewController.xib in Resources */,
+				FB2195641630ABD000FB9B2A /* calaveritaapp.png in Resources */,
+				FB2195661630AC4D00FB9B2A /* calaveritappretina.png in Resources */,
+				FB21956F1630B58400FB9B2A /* ChooseImageViewController.xib in Resources */,
+				FB2195891630C97000FB9B2A /* Default.png in Resources */,
+				FB21958B1630C97400FB9B2A /* Default@2x.png in Resources */,
+				FB21958D1630C9A800FB9B2A /* Default-568h@2x.png in Resources */,
+				FB2195981631D22E00FB9B2A /* XPCCalveritadulceViewController.xib in Resources */,
+				FBFF56301633947800F59F2F /* XPCCalaveritanegroViewController.xib in Resources */,
+				FBFF563616339C4B00F59F2F /* XPCCalaveritaGamerViewController.xib in Resources */,
+				FBF8333E163631DE00408EFF /* 8bit@2x.png in Resources */,
+				FBF83340163641A700408EFF /* 8bit.png in Resources */,
+				FB155D9516365FDB007B9EE8 /* azucar.png in Resources */,
+				FB155D9616365FDB007B9EE8 /* azucar@2x.png in Resources */,
+				FB155D9716365FDB007B9EE8 /* edhardy.png in Resources */,
+				FB155D9816365FDB007B9EE8 /* edhardy@2x.png in Resources */,
+				FB155D9916365FDB007B9EE8 /* grafitti.png in Resources */,
+				FB155D9A16365FDB007B9EE8 /* grafitti@2x.png in Resources */,
+				FB155D9B16365FDB007B9EE8 /* hippie.png in Resources */,
+				FB155D9C16365FDB007B9EE8 /* hippie@2x.png in Resources */,
+				FB155D9D16365FDB007B9EE8 /* metal.png in Resources */,
+				FB155D9E16365FDB007B9EE8 /* metal@2x.png in Resources */,
+				FB155D9F16365FDB007B9EE8 /* moctezuma.png in Resources */,
+				FB155DA016365FDB007B9EE8 /* moctezuma@2x.png in Resources */,
+				FB155DA116365FDB007B9EE8 /* pacman.png in Resources */,
+				FB155DA216365FDB007B9EE8 /* pacman@2x.png in Resources */,
+				FB155DA316365FDB007B9EE8 /* papelpicado.png in Resources */,
+				FB155DA416365FDB007B9EE8 /* papelpicado@2x.png in Resources */,
+				FB155DA516365FDB007B9EE8 /* posada.png in Resources */,
+				FB155DA616365FDB007B9EE8 /* posada@2x.png in Resources */,
+				FB155DA716365FDB007B9EE8 /* santo.png in Resources */,
+				FB155DA816365FDB007B9EE8 /* santo@2x.png in Resources */,
+				FB155DA916365FDB007B9EE8 /* tradicional.png in Resources */,
+				FB155DAA16365FDB007B9EE8 /* tradicional@2x.png in Resources */,
+				FBFBF29416372A400008FDFE /* XPCedHardyViewController.xib in Resources */,
+				FBFBF29A16372A620008FDFE /* XPCgrafittiViewController.xib in Resources */,
+				FBFBF29F16372A7D0008FDFE /* XPChippieViewController.xib in Resources */,
+				FBFBF2A416372A9F0008FDFE /* XPCmoctezumaViewController.xib in Resources */,
+				FBFBF2A916372AC60008FDFE /* XPCPacmanViewController.xib in Resources */,
+				FBFBF2AE16372ADD0008FDFE /* XPCPosadaViewController.xib in Resources */,
+				FBFBF2B316372B270008FDFE /* XPCPapelIndicadoViewController.xib in Resources */,
+				FBFBF2B816372B450008FDFE /* XPCSantoViewController.xib in Resources */,
+				FBFBF2BD16372B630008FDFE /* XPCTradicionalViewController.xib in Resources */,
+				FBFBF2DE16382CBC0008FDFE /* XPCChooseImageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF9D38B162745BD00CAE1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF9D3A0162745BD00CAE1E9 /* main.m in Sources */,
+				FBF9D3A4162745BD00CAE1E9 /* XPCAppDelegate.m in Sources */,
+				FBF9D3AD162745BD00CAE1E9 /* XPCViewController.m in Sources */,
+				FBF9D3CA1627C53300CAE1E9 /* CalaveritaViewController.m in Sources */,
+				FB21956E1630B58400FB9B2A /* ChooseImageViewController.m in Sources */,
+				FB2195971631D22E00FB9B2A /* XPCCalveritadulceViewController.m in Sources */,
+				FBFF562F1633947800F59F2F /* XPCCalaveritanegroViewController.m in Sources */,
+				FBFF563516339C4B00F59F2F /* XPCCalaveritaGamerViewController.m in Sources */,
+				FBF833251635A04300408EFF /* Calaverita.m in Sources */,
+				FBFBF29316372A400008FDFE /* XPCedHardyViewController.m in Sources */,
+				FBFBF29916372A620008FDFE /* XPCgrafittiViewController.m in Sources */,
+				FBFBF29E16372A7D0008FDFE /* XPChippieViewController.m in Sources */,
+				FBFBF2A316372A9F0008FDFE /* XPCmoctezumaViewController.m in Sources */,
+				FBFBF2A816372AC60008FDFE /* XPCPacmanViewController.m in Sources */,
+				FBFBF2AD16372ADD0008FDFE /* XPCPosadaViewController.m in Sources */,
+				FBFBF2B216372B270008FDFE /* XPCPapelIndicadoViewController.m in Sources */,
+				FBFBF2B716372B450008FDFE /* XPCSantoViewController.m in Sources */,
+				FBFBF2BC16372B630008FDFE /* XPCTradicionalViewController.m in Sources */,
+				FBFBF2DD16382CBC0008FDFE /* XPCChooseImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBF9D39C162745BD00CAE1E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF9D39D162745BD00CAE1E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FBF9D3AE162745BD00CAE1E9 /* XPCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBF9D3AF162745BD00CAE1E9 /* en */,
+			);
+			name = XPCViewController.xib;
+			path = Calaveritas;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBF9D3B1162745BD00CAE1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBF9D3B2162745BD00CAE1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF9D3B4162745BD00CAE1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calaveritas/Calaveritas-Prefix.pch";
+				INFOPLIST_FILE = "Calaveritas/Calaveritas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBF9D3B5162745BD00CAE1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calaveritas/Calaveritas-Prefix.pch";
+				INFOPLIST_FILE = "Calaveritas/Calaveritas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF9D389162745BC00CAE1E9 /* Build configuration list for PBXProject "Calaveritas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF9D3B1162745BD00CAE1E9 /* Debug */,
+				FBF9D3B2162745BD00CAE1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF9D3B3162745BD00CAE1E9 /* Build configuration list for PBXNativeTarget "Calaveritas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF9D3B4162745BD00CAE1E9 /* Debug */,
+				FBF9D3B5162745BD00CAE1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF9D386162745BC00CAE1E9 /* Project object */;
+}
